@@ -1,9 +1,0 @@
-#includes <studio.h>
-int main(){
-    int sum;
-    for(int i = 0; i<4; ++i){
-        scanf("%d",&sum)
-        ++sum;
-    }
-    printf("%d", sum)
-}

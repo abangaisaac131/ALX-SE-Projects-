@@ -1,0 +1,15 @@
+#include <stdio.h>
+//programme: takes infinite inputs from user. When user enters a negative numbers the programme stops and prints out the sum
+int main(){
+    int sum, input;
+// Infinite loop to keep taking user inputs
+    while(1){
+        // take user inputs and assign them to int input.
+        scanf("%d",&input);
+        // Stops the infinite loop when a negative numbers is entered.
+        if(input < 0) break;
+        sum += input;
+    }
+    // Prints the sum of the positive integers
+    printf("The sum of the positive integers entered is %d", sum);
+}
